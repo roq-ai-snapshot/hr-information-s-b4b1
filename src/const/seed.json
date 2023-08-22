@@ -1,0 +1,2672 @@
+[
+  {
+    "vacation": [
+      {
+        "id": "e21353c8-b04d-436a-8c37-838f17783a37",
+        "start_date": "2023-08-21T23:46:14.805Z",
+        "end_date": "2023-08-22T00:34:51.350Z",
+        "status": "Approved",
+        "created_at": "2023-08-21T11:00:32.017Z",
+        "updated_at": "2023-08-21T05:38:10.181Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c56922bf-87df-4920-aa2d-b3c47c1133b9",
+        "start_date": "2023-08-21T05:22:48.417Z",
+        "end_date": "2023-08-21T23:48:12.441Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T05:42:38.974Z",
+        "updated_at": "2023-08-22T04:10:15.447Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07133502-a31c-4317-84ea-e68f13b2ff21",
+        "start_date": "2023-08-21T08:58:36.392Z",
+        "end_date": "2023-08-21T14:24:05.448Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T23:58:56.814Z",
+        "updated_at": "2023-08-22T03:05:23.382Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36b0e094-390b-45c0-b8d2-73c69c09a818",
+        "start_date": "2023-08-21T15:42:54.984Z",
+        "end_date": "2023-08-21T05:26:45.565Z",
+        "status": "In Progress",
+        "created_at": "2023-08-21T20:25:41.793Z",
+        "updated_at": "2023-08-21T12:23:38.632Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e861aaf7-238e-4c46-a637-2a1e5dd6f7d7",
+        "start_date": "2023-08-21T13:10:20.919Z",
+        "end_date": "2023-08-21T08:23:16.098Z",
+        "status": "Completed",
+        "created_at": "2023-08-21T17:50:28.484Z",
+        "updated_at": "2023-08-22T03:21:30.977Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "125f0329-d964-4a25-8fcf-26c898927d28",
+        "gross_pay": 86637,
+        "net_pay": 75507,
+        "taxes": 65434,
+        "deductions": 20205,
+        "created_at": "2023-08-21T14:59:10.909Z",
+        "updated_at": "2023-08-22T03:11:05.600Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b754f6c-3d43-42c7-b336-126c5a8d93a9",
+        "gross_pay": 34242,
+        "net_pay": 2843,
+        "taxes": 87113,
+        "deductions": 36081,
+        "created_at": "2023-08-21T18:27:00.235Z",
+        "updated_at": "2023-08-21T20:17:07.857Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b767d5ce-9498-461a-941b-c47cd5e6d7e4",
+        "gross_pay": 48665,
+        "net_pay": 7918,
+        "taxes": 20968,
+        "deductions": 8489,
+        "created_at": "2023-08-21T18:47:15.032Z",
+        "updated_at": "2023-08-21T17:01:50.875Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcb26830-0706-4880-ba99-4bd10c855bf8",
+        "gross_pay": 4390,
+        "net_pay": 4623,
+        "taxes": 31230,
+        "deductions": 5472,
+        "created_at": "2023-08-21T19:11:05.080Z",
+        "updated_at": "2023-08-21T23:30:47.228Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16574967-d7e0-49d9-9dcd-bdf58b6a2df7",
+        "gross_pay": 60084,
+        "net_pay": 67715,
+        "taxes": 89884,
+        "deductions": 35678,
+        "created_at": "2023-08-22T02:34:26.803Z",
+        "updated_at": "2023-08-21T04:50:14.920Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "c0e28798-73e6-4c14-9909-97b14ffd87bb",
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "inquiry": "Interested in booking a room",
+        "created_at": "2023-08-21T07:52:13.277Z",
+        "updated_at": "2023-08-21T15:04:40.153Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5464f8e9-9abc-4733-bcb2-de2e505e5c75",
+        "name": "Robert Davis",
+        "email": "robert.davis@example.com",
+        "inquiry": "Enquiring about availability",
+        "created_at": "2023-08-22T02:07:02.582Z",
+        "updated_at": "2023-08-22T04:13:28.617Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "737c9a36-66bf-45be-beca-62ae38486ecb",
+        "name": "Emily Thompson",
+        "email": "emily.thompson@example.com",
+        "inquiry": "Requesting more information",
+        "created_at": "2023-08-21T05:58:44.123Z",
+        "updated_at": "2023-08-21T07:54:13.842Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ddf006b-031b-4817-869f-c5044185da20",
+        "name": "Daniel Clark",
+        "email": "daniel.clark@example.com",
+        "inquiry": "Looking for recommendations",
+        "created_at": "2023-08-21T21:50:20.562Z",
+        "updated_at": "2023-08-21T06:23:33.475Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab3d820a-e4c6-4a0c-821f-f29ed9e24cdc",
+        "name": "Olivia Turner",
+        "email": "olivia.turner@example.com",
+        "inquiry": "Planning a visit",
+        "created_at": "2023-08-21T10:28:00.176Z",
+        "updated_at": "2023-08-21T18:18:44.367Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "ec3771c9-e738-4140-83e5-dcbbb786f8cf",
+        "job_title": "Software Engineer",
+        "salary": 3668,
+        "hire_date": "2023-08-21T05:20:06.783Z",
+        "termination_date": "2023-08-22T01:25:24.579Z",
+        "created_at": "2023-08-22T01:41:45.706Z",
+        "updated_at": "2023-08-22T00:12:31.026Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e89c366f-fee8-4d98-9f3b-2c38a2162ef2",
+        "job_title": "Marketing Specialist",
+        "salary": 55372,
+        "hire_date": "2023-08-21T17:29:07.545Z",
+        "termination_date": "2023-08-21T17:39:21.313Z",
+        "created_at": "2023-08-22T03:24:10.140Z",
+        "updated_at": "2023-08-22T00:37:56.738Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "641a4299-bb52-4e0a-9a87-2b9daf8cb851",
+        "job_title": "Sales Manager",
+        "salary": 60557,
+        "hire_date": "2023-08-22T04:00:36.430Z",
+        "termination_date": "2023-08-21T14:07:49.139Z",
+        "created_at": "2023-08-21T18:57:06.864Z",
+        "updated_at": "2023-08-22T00:23:40.366Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c99da043-70a5-4357-8f01-cbcc6c03730c",
+        "job_title": "HR Coordinator",
+        "salary": 35152,
+        "hire_date": "2023-08-21T13:44:04.367Z",
+        "termination_date": "2023-08-21T08:34:38.012Z",
+        "created_at": "2023-08-21T12:41:56.709Z",
+        "updated_at": "2023-08-21T12:16:24.553Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba322e4d-b3c9-4082-9d4e-b435e334784b",
+        "job_title": "Finance Analyst",
+        "salary": 73482,
+        "hire_date": "2023-08-22T03:02:46.870Z",
+        "termination_date": "2023-08-21T12:33:32.057Z",
+        "created_at": "2023-08-22T04:23:26.458Z",
+        "updated_at": "2023-08-21T20:06:25.370Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "00c06dc8-1c48-4735-bd53-9c5ab8bb73b3",
+        "email": "Pattie_Blanda@hotmail.com",
+        "firstName": "Maegan",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6800540",
+        "tenantId": null
+      },
+      {
+        "reference": "b108146d-f22c-477d-a8ee-397bcf9d622d",
+        "email": "Theodore97@yahoo.com",
+        "firstName": "Jovani",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21932420",
+        "tenantId": null
+      },
+      {
+        "reference": "b3c6349c-60c5-4a07-b909-64da092c117d",
+        "email": "Kristofer.Fahey94@hotmail.com",
+        "firstName": "Maud",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69272280",
+        "tenantId": null
+      },
+      {
+        "reference": "ddfb1791-1848-4b11-9cff-91e1aa9c3b8a",
+        "email": "Callie_Crooks@hotmail.com",
+        "firstName": "Dejuan",
+        "lastName": "Gleason-Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/402.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f0011de-0df4-450e-9638-35afa478bf58",
+        "email": "Bonnie.Botsford-Schuster@yahoo.com",
+        "firstName": "Ivory",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/619.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "88dd3edb-c717-4cbb-ac52-2871618f4034",
+        "start_date": "2023-08-21T19:00:44.904Z",
+        "end_date": "2023-08-22T01:18:50.862Z",
+        "status": "Approved",
+        "created_at": "2023-08-21T11:58:42.032Z",
+        "updated_at": "2023-08-21T07:52:28.381Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83bce012-b78f-4ee5-a695-b6e77b7a0937",
+        "start_date": "2023-08-21T23:55:54.503Z",
+        "end_date": "2023-08-22T01:07:55.440Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T19:58:07.318Z",
+        "updated_at": "2023-08-22T04:12:30.061Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f4f0c61-87da-4266-85f5-6f1f0b8a6018",
+        "start_date": "2023-08-21T06:48:39.002Z",
+        "end_date": "2023-08-21T21:45:37.291Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T09:38:20.569Z",
+        "updated_at": "2023-08-21T10:24:31.842Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b6a1f08-1c88-4a6f-9223-7512c6295e15",
+        "start_date": "2023-08-21T05:23:36.704Z",
+        "end_date": "2023-08-21T08:45:34.391Z",
+        "status": "Rejected",
+        "created_at": "2023-08-21T15:50:28.025Z",
+        "updated_at": "2023-08-21T20:03:49.227Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06339040-3050-4352-8564-b851d36f1f1c",
+        "start_date": "2023-08-22T04:15:48.707Z",
+        "end_date": "2023-08-21T12:29:45.103Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-21T14:00:54.333Z",
+        "updated_at": "2023-08-21T22:29:23.447Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "868d58ee-32a2-4e40-961d-74e26ef4d6d9",
+        "gross_pay": 73548,
+        "net_pay": 99949,
+        "taxes": 306,
+        "deductions": 82216,
+        "created_at": "2023-08-21T04:55:07.955Z",
+        "updated_at": "2023-08-21T21:39:28.963Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "186012a2-af5b-4336-b212-df6b8d535a70",
+        "gross_pay": 18058,
+        "net_pay": 17016,
+        "taxes": 38955,
+        "deductions": 98258,
+        "created_at": "2023-08-21T08:47:45.737Z",
+        "updated_at": "2023-08-21T15:34:36.248Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "687c7df1-fa3c-407c-b1f4-bfa09c269fd9",
+        "gross_pay": 25339,
+        "net_pay": 17633,
+        "taxes": 90790,
+        "deductions": 84721,
+        "created_at": "2023-08-21T10:02:47.787Z",
+        "updated_at": "2023-08-21T14:35:11.405Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bf7c552-b1db-43c1-9ae3-3e833da9a855",
+        "gross_pay": 99400,
+        "net_pay": 47102,
+        "taxes": 45419,
+        "deductions": 92269,
+        "created_at": "2023-08-22T03:43:24.945Z",
+        "updated_at": "2023-08-21T06:58:52.780Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1be0c686-2e8b-45fe-905e-b6f5102a4109",
+        "gross_pay": 62757,
+        "net_pay": 86550,
+        "taxes": 23353,
+        "deductions": 20840,
+        "created_at": "2023-08-21T22:14:43.871Z",
+        "updated_at": "2023-08-22T00:14:03.618Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "70a4a9ec-159a-460b-a344-93ca22aad565",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "inquiry": "Booking information",
+        "created_at": "2023-08-21T23:42:03.027Z",
+        "updated_at": "2023-08-22T00:09:21.516Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "313adf80-2e74-4ff5-a865-6cc18cf0ceb7",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "inquiry": "Availability query",
+        "created_at": "2023-08-21T10:51:55.499Z",
+        "updated_at": "2023-08-21T09:57:30.299Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fb5be56-80d5-4250-be43-63f5de9f1942",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "inquiry": "Cancellation request",
+        "created_at": "2023-08-22T00:40:30.539Z",
+        "updated_at": "2023-08-21T15:26:49.115Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84890716-d306-4887-bb84-6a117e6ca1a5",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "inquiry": "Special request",
+        "created_at": "2023-08-21T16:09:21.630Z",
+        "updated_at": "2023-08-21T21:36:02.933Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5d7fcf8-fe4a-460f-91f7-7cd901ce1fe1",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "inquiry": "Complaint",
+        "created_at": "2023-08-22T04:34:56.163Z",
+        "updated_at": "2023-08-21T23:10:39.663Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "a6aefbbc-fce4-4192-94cb-c5ef8ed2d560",
+        "job_title": "Software Engineer",
+        "salary": 78100,
+        "hire_date": "2023-08-21T04:58:31.029Z",
+        "termination_date": "2023-08-21T19:08:50.468Z",
+        "created_at": "2023-08-21T05:13:04.486Z",
+        "updated_at": "2023-08-22T03:16:25.337Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34576829-585f-4cd9-a53b-fb65fd4fb3c9",
+        "job_title": "Marketing Specialist",
+        "salary": 61256,
+        "hire_date": "2023-08-21T15:56:00.431Z",
+        "termination_date": "2023-08-21T09:25:44.870Z",
+        "created_at": "2023-08-21T17:15:16.569Z",
+        "updated_at": "2023-08-21T15:44:34.766Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3793a96d-ba32-4a8e-87a4-a98254d2084f",
+        "job_title": "Sales Representative",
+        "salary": 68131,
+        "hire_date": "2023-08-21T22:33:13.105Z",
+        "termination_date": "2023-08-21T14:19:26.177Z",
+        "created_at": "2023-08-22T00:51:45.129Z",
+        "updated_at": "2023-08-21T21:59:24.946Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c37fd1b-06f4-4c48-90de-d5699212cc8b",
+        "job_title": "Human Resources Manager",
+        "salary": 94929,
+        "hire_date": "2023-08-21T13:06:30.972Z",
+        "termination_date": "2023-08-22T02:45:32.581Z",
+        "created_at": "2023-08-21T16:35:17.727Z",
+        "updated_at": "2023-08-21T09:29:25.997Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dc277f8-c216-4bba-bb1f-404bde0ce20d",
+        "job_title": "Financial Analyst",
+        "salary": 56723,
+        "hire_date": "2023-08-22T03:18:15.739Z",
+        "termination_date": "2023-08-21T20:05:15.372Z",
+        "created_at": "2023-08-21T23:14:10.596Z",
+        "updated_at": "2023-08-21T08:50:28.615Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9b682eaf-d7fd-499f-9087-8d6cc02e2f4d",
+        "email": "Eulalia70@hotmail.com",
+        "firstName": "Dulce",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/334.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6085abe7-b3d4-4a54-9310-92600e0c997a",
+        "email": "Emmie.Schiller@gmail.com",
+        "firstName": "Chris",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10404753",
+        "tenantId": null
+      },
+      {
+        "reference": "39db71f0-d760-49b2-88e1-04bf13386fc0",
+        "email": "Alex.Ankunding89@gmail.com",
+        "firstName": "Keenan",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87433464",
+        "tenantId": null
+      },
+      {
+        "reference": "77a55bab-65fb-4dd4-af50-b8b52798940c",
+        "email": "Tierra_Purdy@yahoo.com",
+        "firstName": "Alden",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33204029",
+        "tenantId": null
+      },
+      {
+        "reference": "c47ee8e9-3118-4699-b415-3deedb158778",
+        "email": "Mikayla.Bechtelar@yahoo.com",
+        "firstName": "Destiny",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/710.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "66696c40-a9b9-4eb1-a802-0472f830176d",
+        "start_date": "2023-08-21T22:52:59.210Z",
+        "end_date": "2023-08-21T09:49:42.895Z",
+        "status": "Approved",
+        "created_at": "2023-08-21T09:16:57.203Z",
+        "updated_at": "2023-08-21T18:58:45.507Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ff5b8e7-c90a-4002-a09a-fea46e588c25",
+        "start_date": "2023-08-22T00:06:57.815Z",
+        "end_date": "2023-08-21T09:16:58.018Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T18:03:44.357Z",
+        "updated_at": "2023-08-21T13:18:46.111Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97635fe0-4022-42ad-b569-2a131dab9b1a",
+        "start_date": "2023-08-21T18:00:39.072Z",
+        "end_date": "2023-08-21T19:35:26.778Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T10:20:23.133Z",
+        "updated_at": "2023-08-21T15:46:25.767Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a07b121b-a3a0-4691-a560-dfc3627caaf5",
+        "start_date": "2023-08-21T13:51:37.621Z",
+        "end_date": "2023-08-21T06:35:45.268Z",
+        "status": "Rejected",
+        "created_at": "2023-08-21T12:53:50.186Z",
+        "updated_at": "2023-08-21T13:37:18.570Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eaebf59c-b527-41f9-8e91-b38a9cd254f3",
+        "start_date": "2023-08-22T04:45:51.075Z",
+        "end_date": "2023-08-21T19:42:21.147Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-21T23:31:30.084Z",
+        "updated_at": "2023-08-21T06:07:13.931Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "36a30ff3-7268-4ade-b0b0-7f90e3f45d27",
+        "gross_pay": 48870,
+        "net_pay": 60934,
+        "taxes": 62280,
+        "deductions": 70444,
+        "created_at": "2023-08-21T05:57:16.175Z",
+        "updated_at": "2023-08-21T18:49:07.763Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93c09dd5-0b4a-4063-aaf4-76e26b446810",
+        "gross_pay": 86247,
+        "net_pay": 70171,
+        "taxes": 3834,
+        "deductions": 21840,
+        "created_at": "2023-08-21T14:47:36.987Z",
+        "updated_at": "2023-08-21T13:08:46.749Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88b5c09c-9284-46b5-87a6-fc74c0d7b5f0",
+        "gross_pay": 38167,
+        "net_pay": 79231,
+        "taxes": 45426,
+        "deductions": 54959,
+        "created_at": "2023-08-21T07:53:38.779Z",
+        "updated_at": "2023-08-21T13:53:04.925Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8856b6c-483b-475b-bca6-d5b1aca38768",
+        "gross_pay": 59522,
+        "net_pay": 81068,
+        "taxes": 90346,
+        "deductions": 95647,
+        "created_at": "2023-08-22T04:08:31.251Z",
+        "updated_at": "2023-08-22T00:17:00.995Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f3a0219-2bd1-42a5-aa75-a772df28908a",
+        "gross_pay": 43276,
+        "net_pay": 17941,
+        "taxes": 31974,
+        "deductions": 95230,
+        "created_at": "2023-08-21T13:56:53.609Z",
+        "updated_at": "2023-08-21T08:45:49.261Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "d26d4ebc-680f-4678-beaa-054f135304a4",
+        "name": "Mark Johnson",
+        "email": "mark.johnson@example.com",
+        "inquiry": "Looking for accommodation options",
+        "created_at": "2023-08-21T10:22:21.815Z",
+        "updated_at": "2023-08-21T17:45:37.876Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7a55568-f363-4ce2-a099-416c59f5e5df",
+        "name": "Emily Davis",
+        "email": "emily.davis@example.com",
+        "inquiry": "Interested in local attractions",
+        "created_at": "2023-08-21T08:39:51.597Z",
+        "updated_at": "2023-08-21T19:44:17.182Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d946079-ff75-4209-9b43-9e8bd4bab5ea",
+        "name": "Daniel Thompson",
+        "email": "daniel.thompson@example.com",
+        "inquiry": "Need information about transportation",
+        "created_at": "2023-08-21T21:12:52.086Z",
+        "updated_at": "2023-08-21T15:06:24.218Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7626b1c6-10c6-4d41-803d-2dc4177f02b9",
+        "name": "Olivia Martinez",
+        "email": "olivia.martinez@example.com",
+        "inquiry": "Requesting restaurant recommendations",
+        "created_at": "2023-08-21T13:49:05.222Z",
+        "updated_at": "2023-08-21T12:09:24.558Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cb05f28-4846-4dc8-8fc7-441f701c2d46",
+        "name": "William Anderson",
+        "email": "william.anderson@example.com",
+        "inquiry": "Inquiring about available dates",
+        "created_at": "2023-08-21T06:25:23.386Z",
+        "updated_at": "2023-08-21T18:33:50.729Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "85d3c755-f811-4741-8dd4-b387dbdc2904",
+        "job_title": "Software Engineer",
+        "salary": 15158,
+        "hire_date": "2023-08-21T16:25:48.527Z",
+        "termination_date": "2023-08-21T22:43:03.700Z",
+        "created_at": "2023-08-21T13:52:57.151Z",
+        "updated_at": "2023-08-21T19:07:53.419Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e7f11a8-2d3f-43b3-b576-a1f814dca588",
+        "job_title": "Marketing Manager",
+        "salary": 63199,
+        "hire_date": "2023-08-21T14:06:40.440Z",
+        "termination_date": "2023-08-22T02:51:20.128Z",
+        "created_at": "2023-08-22T03:15:43.555Z",
+        "updated_at": "2023-08-21T13:48:59.991Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a13cc975-c77f-4986-92e7-0fd2786f9792",
+        "job_title": "Sales Representative",
+        "salary": 96982,
+        "hire_date": "2023-08-21T05:55:27.628Z",
+        "termination_date": "2023-08-22T04:36:00.332Z",
+        "created_at": "2023-08-21T11:03:51.716Z",
+        "updated_at": "2023-08-21T12:27:38.004Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7918ae2-ec63-40c7-aeda-31d6110f2817",
+        "job_title": "Human Resources Specialist",
+        "salary": 35200,
+        "hire_date": "2023-08-22T00:15:35.109Z",
+        "termination_date": "2023-08-21T17:23:02.897Z",
+        "created_at": "2023-08-21T19:50:54.145Z",
+        "updated_at": "2023-08-21T09:06:46.198Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b1ec9fd-04b0-493e-9404-e33e9349b0bb",
+        "job_title": "Financial Analyst",
+        "salary": 5653,
+        "hire_date": "2023-08-21T23:16:00.747Z",
+        "termination_date": "2023-08-21T18:40:39.379Z",
+        "created_at": "2023-08-21T13:00:32.517Z",
+        "updated_at": "2023-08-21T21:54:30.871Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "32ee47ae-715a-4e98-81ce-ce93b4814dab",
+        "email": "Joy.Cole@gmail.com",
+        "firstName": "Rhett",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/443.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "54d93e53-44a7-441f-9901-6b445578dd75",
+        "email": "Roman47@yahoo.com",
+        "firstName": "Armand",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3532991",
+        "tenantId": null
+      },
+      {
+        "reference": "35dc5c77-b331-4900-ab13-80ebd63354b5",
+        "email": "Jaylon_Wilkinson13@hotmail.com",
+        "firstName": "Woodrow",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1127.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "56884fea-c5ff-422e-a7da-6ec407ddcaf5",
+        "email": "Wilfred94@gmail.com",
+        "firstName": "Darron",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1019.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "67a43cd9-b438-47b0-8ab0-9cc37497d6a4",
+        "email": "Kathryn_Spencer@gmail.com",
+        "firstName": "Cecilia",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24573274",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "d737cd19-1cc5-4db0-befb-c0420b452033",
+        "start_date": "2023-08-21T13:08:47.910Z",
+        "end_date": "2023-08-22T02:16:08.632Z",
+        "status": "Approved",
+        "created_at": "2023-08-21T04:55:31.743Z",
+        "updated_at": "2023-08-22T00:35:31.128Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c2c89ab-9448-45e9-9fcd-abe07fbfb5dd",
+        "start_date": "2023-08-22T00:56:27.257Z",
+        "end_date": "2023-08-22T04:37:58.747Z",
+        "status": "Pending",
+        "created_at": "2023-08-22T01:20:46.759Z",
+        "updated_at": "2023-08-22T00:45:01.095Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f4a1309-d362-4800-b14e-3e8585a7a921",
+        "start_date": "2023-08-21T19:09:03.201Z",
+        "end_date": "2023-08-21T10:34:24.320Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-22T03:12:54.907Z",
+        "updated_at": "2023-08-21T16:25:03.166Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38cf8cd5-1271-4129-a7c1-77930b025619",
+        "start_date": "2023-08-21T08:17:15.229Z",
+        "end_date": "2023-08-21T06:50:29.803Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-21T06:50:02.814Z",
+        "updated_at": "2023-08-21T07:02:05.609Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4c52164-7093-4988-b0f6-5f34d810866a",
+        "start_date": "2023-08-21T15:02:22.646Z",
+        "end_date": "2023-08-21T06:42:34.743Z",
+        "status": "Denied",
+        "created_at": "2023-08-21T13:25:43.104Z",
+        "updated_at": "2023-08-21T19:05:30.867Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "3b3555e7-8141-4f6b-b09d-fe3ebafbc167",
+        "gross_pay": 90777,
+        "net_pay": 77783,
+        "taxes": 40373,
+        "deductions": 58970,
+        "created_at": "2023-08-21T21:26:43.460Z",
+        "updated_at": "2023-08-22T04:37:12.338Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e45be49a-8f14-43a2-9aae-c5398a258aef",
+        "gross_pay": 60694,
+        "net_pay": 53053,
+        "taxes": 20230,
+        "deductions": 98564,
+        "created_at": "2023-08-21T22:06:38.968Z",
+        "updated_at": "2023-08-21T17:39:02.359Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c733570-ba67-4fb1-a9d4-c278348151d7",
+        "gross_pay": 11878,
+        "net_pay": 41762,
+        "taxes": 42264,
+        "deductions": 41689,
+        "created_at": "2023-08-21T14:09:08.997Z",
+        "updated_at": "2023-08-21T16:11:42.125Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75458513-fa6a-4344-9d87-45410616a1a6",
+        "gross_pay": 61072,
+        "net_pay": 74063,
+        "taxes": 90607,
+        "deductions": 68409,
+        "created_at": "2023-08-21T07:52:51.561Z",
+        "updated_at": "2023-08-21T13:21:08.620Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97cd9efe-0919-4e92-8328-1a23ea33d055",
+        "gross_pay": 14324,
+        "net_pay": 96733,
+        "taxes": 21631,
+        "deductions": 69695,
+        "created_at": "2023-08-21T05:57:53.451Z",
+        "updated_at": "2023-08-22T02:02:00.010Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "1be18970-886d-42b7-962b-a40a4795101f",
+        "name": "John Smith",
+        "email": "guest1@example.com",
+        "inquiry": "Regarding reservation",
+        "created_at": "2023-08-21T12:58:23.124Z",
+        "updated_at": "2023-08-22T00:25:00.410Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3f246d7-86f9-4ce8-8eb4-c9960570c9a5",
+        "name": "Jane Doe",
+        "email": "guest2@example.com",
+        "inquiry": "Asking about amenities",
+        "created_at": "2023-08-22T03:25:23.907Z",
+        "updated_at": "2023-08-21T17:04:43.802Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "282b31d0-70b6-41a8-9b63-4d89c86dea56",
+        "name": "Michael Brown",
+        "email": "guest3@example.com",
+        "inquiry": "Requesting early check-in",
+        "created_at": "2023-08-21T21:32:50.820Z",
+        "updated_at": "2023-08-21T11:52:43.502Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21d79223-6173-4ef5-91fc-c10a6b0a652c",
+        "name": "Sarah Jones",
+        "email": "guest4@example.com",
+        "inquiry": "Inquiring about nearby attractions",
+        "created_at": "2023-08-22T04:05:28.739Z",
+        "updated_at": "2023-08-21T10:22:12.427Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70708e11-b2a7-4493-982b-5f1c14ee952f",
+        "name": "David Wilson",
+        "email": "guest5@example.com",
+        "inquiry": "Asking for restaurant recommendations",
+        "created_at": "2023-08-22T04:30:34.986Z",
+        "updated_at": "2023-08-21T08:58:16.536Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "c5d328ac-9f88-405f-9b55-fa755017c22f",
+        "job_title": "Software Engineer",
+        "salary": 37294,
+        "hire_date": "2023-08-21T23:08:24.237Z",
+        "termination_date": "2023-08-21T13:23:13.477Z",
+        "created_at": "2023-08-21T09:08:07.641Z",
+        "updated_at": "2023-08-21T10:43:36.451Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a738d94-bcf8-4fca-b049-38857433d719",
+        "job_title": "Marketing Specialist",
+        "salary": 31389,
+        "hire_date": "2023-08-21T18:13:25.555Z",
+        "termination_date": "2023-08-21T08:39:51.597Z",
+        "created_at": "2023-08-21T12:24:25.018Z",
+        "updated_at": "2023-08-22T02:53:22.017Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b385a04d-1264-4f1b-874c-8447c537afd9",
+        "job_title": "Sales Representative",
+        "salary": 99314,
+        "hire_date": "2023-08-22T01:25:11.411Z",
+        "termination_date": "2023-08-21T09:27:58.229Z",
+        "created_at": "2023-08-21T05:25:14.118Z",
+        "updated_at": "2023-08-21T06:28:48.164Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c212d37a-3993-4264-909c-c229f5dfe67d",
+        "job_title": "HR Manager",
+        "salary": 61165,
+        "hire_date": "2023-08-21T06:59:14.714Z",
+        "termination_date": "2023-08-21T09:49:22.951Z",
+        "created_at": "2023-08-22T04:22:08.731Z",
+        "updated_at": "2023-08-21T09:41:12.088Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a31e4a1-e324-4f40-813b-ed518c0ad218",
+        "job_title": "Operations Coordinator",
+        "salary": 21065,
+        "hire_date": "2023-08-21T13:54:52.995Z",
+        "termination_date": "2023-08-21T12:59:41.333Z",
+        "created_at": "2023-08-21T04:54:07.830Z",
+        "updated_at": "2023-08-21T20:06:11.739Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d89fbcb2-7585-4a14-a2b2-e3d2edb3108d",
+        "email": "Mikayla_Heidenreich@yahoo.com",
+        "firstName": "Casimer",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85078368",
+        "tenantId": null
+      },
+      {
+        "reference": "225d5307-04fc-41d4-b1fa-bd17ff4ea371",
+        "email": "Morris.Bernhard34@yahoo.com",
+        "firstName": "America",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/13.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9c07e8ff-f1c2-427b-ac31-2182cbe02f8d",
+        "email": "Jaida.Walsh@hotmail.com",
+        "firstName": "Oswald",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26778626",
+        "tenantId": null
+      },
+      {
+        "reference": "b62288ac-5e53-4b70-9528-36a4083f8834",
+        "email": "Rebecca32@yahoo.com",
+        "firstName": "Breanne",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/74.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bf9e55ad-2af5-463a-8d8c-64fc57cf4af4",
+        "email": "Novella39@yahoo.com",
+        "firstName": "Ramon",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68859265",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "dd47fc9b-e568-4274-8901-ba0bf5289721",
+        "start_date": "2023-08-22T01:44:19.560Z",
+        "end_date": "2023-08-21T07:11:16.759Z",
+        "status": "Approved",
+        "created_at": "2023-08-21T19:17:16.525Z",
+        "updated_at": "2023-08-21T08:22:54.842Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4dd2b36-1d78-4b62-99bd-cff7f9e49600",
+        "start_date": "2023-08-22T03:33:32.012Z",
+        "end_date": "2023-08-21T06:30:09.989Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T21:11:04.746Z",
+        "updated_at": "2023-08-21T11:23:42.513Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5194e8ed-0c1c-494a-b7a4-f7378cef1bdb",
+        "start_date": "2023-08-21T19:35:05.811Z",
+        "end_date": "2023-08-21T13:12:38.734Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T11:56:48.942Z",
+        "updated_at": "2023-08-21T10:14:28.603Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "313b0082-ecef-46a0-bd56-bea4234b5650",
+        "start_date": "2023-08-21T05:26:14.757Z",
+        "end_date": "2023-08-21T19:06:59.401Z",
+        "status": "In Progress",
+        "created_at": "2023-08-21T23:31:18.881Z",
+        "updated_at": "2023-08-21T08:35:07.210Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac02d592-b4b0-429b-850d-7eacbb9ea52c",
+        "start_date": "2023-08-21T11:05:44.340Z",
+        "end_date": "2023-08-21T22:35:02.824Z",
+        "status": "Completed",
+        "created_at": "2023-08-21T12:18:27.304Z",
+        "updated_at": "2023-08-21T18:54:47.599Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "c574c453-cabd-4775-85b4-5f9e88a1b3bc",
+        "gross_pay": 38671,
+        "net_pay": 96681,
+        "taxes": 5113,
+        "deductions": 20326,
+        "created_at": "2023-08-21T15:27:02.565Z",
+        "updated_at": "2023-08-21T18:00:33.600Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce236548-2e7a-4389-b99b-fb7009aa0fe5",
+        "gross_pay": 17186,
+        "net_pay": 10390,
+        "taxes": 99565,
+        "deductions": 84932,
+        "created_at": "2023-08-21T23:12:26.698Z",
+        "updated_at": "2023-08-21T23:58:26.195Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f71e847d-2ada-4229-a4b2-a28426046f3c",
+        "gross_pay": 36793,
+        "net_pay": 95683,
+        "taxes": 89214,
+        "deductions": 65772,
+        "created_at": "2023-08-21T07:06:21.487Z",
+        "updated_at": "2023-08-21T07:26:19.465Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6126bb6-06bd-4b7d-a315-59abf1b33ad7",
+        "gross_pay": 96128,
+        "net_pay": 15148,
+        "taxes": 90509,
+        "deductions": 29946,
+        "created_at": "2023-08-21T08:09:09.671Z",
+        "updated_at": "2023-08-21T12:48:44.857Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baaf172f-1e80-49f0-a4c3-d1af2580277a",
+        "gross_pay": 60183,
+        "net_pay": 16697,
+        "taxes": 64884,
+        "deductions": 35617,
+        "created_at": "2023-08-21T10:02:35.134Z",
+        "updated_at": "2023-08-21T20:42:44.008Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "c92f10da-87cb-4edd-89d1-039b9ed44920",
+        "name": "John Smith",
+        "email": "guest1@example.com",
+        "inquiry": "Interested in booking a room",
+        "created_at": "2023-08-21T06:52:27.070Z",
+        "updated_at": "2023-08-21T10:10:02.752Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "373a9375-0f4f-4830-b771-15759d51202b",
+        "name": "Jane Doe",
+        "email": "guest2@example.com",
+        "inquiry": "Enquiring about available dates",
+        "created_at": "2023-08-22T01:36:49.151Z",
+        "updated_at": "2023-08-21T15:44:54.468Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6080ad2-dfc6-4d03-8d6e-5cfaee08acd7",
+        "name": "Michael Brown",
+        "email": "guest3@example.com",
+        "inquiry": "Requesting more information",
+        "created_at": "2023-08-22T01:35:48.750Z",
+        "updated_at": "2023-08-22T00:33:48.808Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "513441ce-6a60-4237-84b0-f289361356cf",
+        "name": "Sarah Jones",
+        "email": "guest4@example.com",
+        "inquiry": "Asking about amenities",
+        "created_at": "2023-08-22T02:48:49.331Z",
+        "updated_at": "2023-08-21T14:31:52.188Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "893df42b-1e4e-4b4e-822f-3bf28ea115d7",
+        "name": "David Wilson",
+        "email": "guest5@example.com",
+        "inquiry": "Seeking recommendations for local attractions",
+        "created_at": "2023-08-21T10:01:02.118Z",
+        "updated_at": "2023-08-21T14:38:12.363Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "dc1a2864-697d-4f04-b37c-62091c312297",
+        "job_title": "Software Engineer",
+        "salary": 10838,
+        "hire_date": "2023-08-21T07:46:36.416Z",
+        "termination_date": "2023-08-21T05:39:38.053Z",
+        "created_at": "2023-08-21T20:12:14.541Z",
+        "updated_at": "2023-08-22T01:10:36.549Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e72443e6-5951-4358-b467-4994c27b9f8d",
+        "job_title": "Marketing Manager",
+        "salary": 25005,
+        "hire_date": "2023-08-21T20:09:27.119Z",
+        "termination_date": "2023-08-21T06:33:34.102Z",
+        "created_at": "2023-08-21T20:55:45.163Z",
+        "updated_at": "2023-08-21T17:05:26.144Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4580541a-62ce-480c-b7d0-3f52623f02f4",
+        "job_title": "Financial Analyst",
+        "salary": 99008,
+        "hire_date": "2023-08-21T05:53:52.373Z",
+        "termination_date": "2023-08-21T07:18:10.924Z",
+        "created_at": "2023-08-22T04:11:07.121Z",
+        "updated_at": "2023-08-21T15:51:44.237Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87f2a2b1-3193-4f2f-84d2-7f51c07962b4",
+        "job_title": "Human Resources Coordinator",
+        "salary": 53,
+        "hire_date": "2023-08-21T13:32:20.885Z",
+        "termination_date": "2023-08-21T15:29:23.293Z",
+        "created_at": "2023-08-22T04:29:16.089Z",
+        "updated_at": "2023-08-21T13:06:38.321Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8aff559e-12ba-4f12-935e-ca057399b844",
+        "job_title": "Sales Representative",
+        "salary": 47892,
+        "hire_date": "2023-08-21T06:20:27.433Z",
+        "termination_date": "2023-08-21T08:02:50.835Z",
+        "created_at": "2023-08-21T06:06:17.384Z",
+        "updated_at": "2023-08-22T03:43:48.587Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "236a4782-20c7-4c48-af96-9d36b6202a71",
+        "email": "Steve80@hotmail.com",
+        "firstName": "Geraldine",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25126617",
+        "tenantId": null
+      },
+      {
+        "reference": "f5acfd4b-0fbe-4906-8294-b1e7e058bc36",
+        "email": "Johann_Adams13@yahoo.com",
+        "firstName": "Marques",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/921.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3e4e85db-4ee1-4900-8a98-20f85cdc2a53",
+        "email": "Gilda.Terry17@gmail.com",
+        "firstName": "Benedict",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85895498",
+        "tenantId": null
+      },
+      {
+        "reference": "a5316870-2082-43e2-bb7a-5209012e92f7",
+        "email": "Gardner3@gmail.com",
+        "firstName": "Ambrose",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/632.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b7396439-662e-4957-96c9-592e10a12a15",
+        "email": "Lester_Parisian@yahoo.com",
+        "firstName": "Fausto",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90697399",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "14ec252c-e136-4cec-acf5-61bb3c0049fa",
+        "start_date": "2023-08-22T02:00:15.551Z",
+        "end_date": "2023-08-22T04:10:06.908Z",
+        "status": "Approved",
+        "created_at": "2023-08-21T15:24:09.916Z",
+        "updated_at": "2023-08-21T22:47:26.268Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c725a046-8c77-42fb-81b9-31c32c3f916e",
+        "start_date": "2023-08-21T22:34:56.157Z",
+        "end_date": "2023-08-21T18:28:12.749Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T15:33:21.748Z",
+        "updated_at": "2023-08-22T02:38:30.225Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b030ff0c-9ab2-463d-ae0d-3dec75667857",
+        "start_date": "2023-08-21T17:02:33.739Z",
+        "end_date": "2023-08-21T10:44:02.675Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T23:19:47.275Z",
+        "updated_at": "2023-08-21T21:03:25.916Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f80e372a-6962-4322-a2dc-69e567aa010e",
+        "start_date": "2023-08-21T18:24:47.716Z",
+        "end_date": "2023-08-21T09:28:42.753Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-21T13:23:22.900Z",
+        "updated_at": "2023-08-21T20:40:58.838Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c87932e-5926-463e-8b41-90b76db21911",
+        "start_date": "2023-08-21T12:41:27.673Z",
+        "end_date": "2023-08-21T14:50:26.485Z",
+        "status": "Rejected",
+        "created_at": "2023-08-22T00:03:57.772Z",
+        "updated_at": "2023-08-21T08:50:52.132Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "04b022e6-4f32-439f-b331-5aec2e5ad3da",
+        "gross_pay": 86376,
+        "net_pay": 87138,
+        "taxes": 91340,
+        "deductions": 20552,
+        "created_at": "2023-08-21T23:19:27.062Z",
+        "updated_at": "2023-08-21T23:28:20.814Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "015c171f-a918-4473-93be-abe1d4f0c231",
+        "gross_pay": 16130,
+        "net_pay": 53013,
+        "taxes": 87610,
+        "deductions": 73787,
+        "created_at": "2023-08-21T12:51:05.322Z",
+        "updated_at": "2023-08-21T23:09:17.512Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "722d46e2-24e2-4ee2-8db5-ff1b2ee9841c",
+        "gross_pay": 84373,
+        "net_pay": 96960,
+        "taxes": 74988,
+        "deductions": 87229,
+        "created_at": "2023-08-21T07:28:08.533Z",
+        "updated_at": "2023-08-21T15:26:37.918Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd5fb5e6-2dd1-42ac-ad11-3945e61e4002",
+        "gross_pay": 73228,
+        "net_pay": 63531,
+        "taxes": 15598,
+        "deductions": 94021,
+        "created_at": "2023-08-21T12:06:47.754Z",
+        "updated_at": "2023-08-21T18:27:21.604Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10920b0d-551e-495f-928b-4d798a6e1f8c",
+        "gross_pay": 53119,
+        "net_pay": 40834,
+        "taxes": 43005,
+        "deductions": 8491,
+        "created_at": "2023-08-21T19:41:59.928Z",
+        "updated_at": "2023-08-21T23:39:12.775Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "7650df6b-f0bd-4d11-9253-aa76eea60edb",
+        "name": "John Smith",
+        "email": "guest1@example.com",
+        "inquiry": "Interested in booking a room",
+        "created_at": "2023-08-21T12:31:07.449Z",
+        "updated_at": "2023-08-21T10:22:18.982Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c994563-f037-4a84-af23-976381070b6a",
+        "name": "Jane Doe",
+        "email": "guest2@example.com",
+        "inquiry": "Inquiring about availability",
+        "created_at": "2023-08-22T00:30:38.049Z",
+        "updated_at": "2023-08-21T06:57:50.147Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f5cb06e-e8fc-4e07-abd1-e495068538e5",
+        "name": "Michael Johnson",
+        "email": "guest3@example.com",
+        "inquiry": "Seeking information about amenities",
+        "created_at": "2023-08-21T23:26:50.900Z",
+        "updated_at": "2023-08-21T18:03:50.235Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23118eb7-4f60-45eb-8731-d29e735f3380",
+        "name": "Sarah Wilson",
+        "email": "guest4@example.com",
+        "inquiry": "Requesting a reservation change",
+        "created_at": "2023-08-22T02:56:00.049Z",
+        "updated_at": "2023-08-21T12:37:41.478Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abd7ddf1-acf9-414b-8085-02c4bb31fce4",
+        "name": "David Brown",
+        "email": "guest5@example.com",
+        "inquiry": "Asking for local attractions recommendations",
+        "created_at": "2023-08-21T20:49:13.779Z",
+        "updated_at": "2023-08-21T19:58:40.650Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "2cc93abe-1897-4435-8eba-e589c94be022",
+        "job_title": "Software Engineer",
+        "salary": 57047,
+        "hire_date": "2023-08-21T19:56:26.683Z",
+        "termination_date": "2023-08-21T07:35:07.191Z",
+        "created_at": "2023-08-21T19:05:19.400Z",
+        "updated_at": "2023-08-21T10:34:19.693Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a4ee636-1664-4ee3-ab34-aa07a0276124",
+        "job_title": "Marketing Specialist",
+        "salary": 55883,
+        "hire_date": "2023-08-21T12:42:22.101Z",
+        "termination_date": "2023-08-22T04:01:17.999Z",
+        "created_at": "2023-08-21T22:56:59.416Z",
+        "updated_at": "2023-08-21T16:48:08.061Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f906c3c-3d00-469a-b1dd-18ce5c1b29d5",
+        "job_title": "Financial Analyst",
+        "salary": 97088,
+        "hire_date": "2023-08-21T16:34:31.430Z",
+        "termination_date": "2023-08-21T11:10:45.936Z",
+        "created_at": "2023-08-21T21:16:11.321Z",
+        "updated_at": "2023-08-22T04:30:39.361Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e36baf1-5e27-4ca1-98ae-c43b29330dbb",
+        "job_title": "HR Manager",
+        "salary": 58257,
+        "hire_date": "2023-08-21T09:07:39.887Z",
+        "termination_date": "2023-08-22T04:36:55.497Z",
+        "created_at": "2023-08-21T07:02:33.634Z",
+        "updated_at": "2023-08-22T00:42:15.203Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "384ea576-6120-46bd-bf8f-55843eef2de7",
+        "job_title": "Operations Coordinator",
+        "salary": 53561,
+        "hire_date": "2023-08-21T15:41:44.893Z",
+        "termination_date": "2023-08-22T03:52:47.252Z",
+        "created_at": "2023-08-21T19:23:11.048Z",
+        "updated_at": "2023-08-21T13:21:03.722Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8ac9d7c5-414a-488c-9e60-f8c8f5147f47",
+        "email": "Jaylon72@gmail.com",
+        "firstName": "Chaya",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/400.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0e2a4483-3feb-40c4-8f0f-c36bcefdf6b2",
+        "email": "Caesar54@gmail.com",
+        "firstName": "Dillon",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22295917",
+        "tenantId": null
+      },
+      {
+        "reference": "48c415f7-84ea-4844-ab8c-0382498d584b",
+        "email": "Rachael_Legros74@gmail.com",
+        "firstName": "Josianne",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/306.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f31f9abc-7ee5-400a-b815-06ed3e8f4142",
+        "email": "Erik.Feest@yahoo.com",
+        "firstName": "Viviane",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21280669",
+        "tenantId": null
+      },
+      {
+        "reference": "c9395241-bd7e-4e58-b44c-eb51742254eb",
+        "email": "Lazaro59@hotmail.com",
+        "firstName": "Dominique",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/10.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "20a48b96-b80a-41bd-b992-1ab2d1d368c4",
+        "start_date": "2023-08-21T11:26:09.367Z",
+        "end_date": "2023-08-22T00:23:21.964Z",
+        "status": "approved",
+        "created_at": "2023-08-21T14:13:28.023Z",
+        "updated_at": "2023-08-22T02:33:23.907Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9f7afaf-bc6f-42b3-a8fe-c01fc6d52e4b",
+        "start_date": "2023-08-21T14:52:34.679Z",
+        "end_date": "2023-08-21T10:25:49.416Z",
+        "status": "pending",
+        "created_at": "2023-08-21T11:10:03.117Z",
+        "updated_at": "2023-08-21T06:05:54.433Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "366e9733-8c7f-4e57-a42a-8084bc48896d",
+        "start_date": "2023-08-21T17:30:02.251Z",
+        "end_date": "2023-08-21T05:46:51.152Z",
+        "status": "cancelled",
+        "created_at": "2023-08-21T07:29:40.029Z",
+        "updated_at": "2023-08-21T22:27:54.061Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07219eb1-143e-40bb-b48a-e246800e7453",
+        "start_date": "2023-08-21T16:13:41.469Z",
+        "end_date": "2023-08-21T07:01:15.104Z",
+        "status": "requested",
+        "created_at": "2023-08-21T05:24:33.859Z",
+        "updated_at": "2023-08-21T19:30:45.227Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83b6ef10-74ab-4447-8021-97c4501e3903",
+        "start_date": "2023-08-21T11:59:39.663Z",
+        "end_date": "2023-08-21T09:54:07.195Z",
+        "status": "rejected",
+        "created_at": "2023-08-21T11:04:52.920Z",
+        "updated_at": "2023-08-21T09:15:36.183Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "90ad02f1-4690-466e-a846-fc577a9177b2",
+        "gross_pay": 34013,
+        "net_pay": 40855,
+        "taxes": 86134,
+        "deductions": 11855,
+        "created_at": "2023-08-21T21:07:55.473Z",
+        "updated_at": "2023-08-21T18:24:01.659Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5adcb62-e4c2-45ba-9505-a4362ef6a209",
+        "gross_pay": 58095,
+        "net_pay": 58511,
+        "taxes": 2499,
+        "deductions": 1991,
+        "created_at": "2023-08-21T10:06:45.297Z",
+        "updated_at": "2023-08-21T22:57:05.746Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43334b7e-3f10-40f4-b6d4-d7bc13417fcc",
+        "gross_pay": 29545,
+        "net_pay": 93191,
+        "taxes": 74204,
+        "deductions": 34248,
+        "created_at": "2023-08-21T14:31:20.129Z",
+        "updated_at": "2023-08-22T00:07:10.201Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb88b2f2-5135-41c2-bcda-56bc1192f223",
+        "gross_pay": 75015,
+        "net_pay": 87597,
+        "taxes": 39306,
+        "deductions": 22532,
+        "created_at": "2023-08-22T01:39:23.232Z",
+        "updated_at": "2023-08-22T00:50:46.803Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f837e4c9-630c-4827-a81d-e38bf64f75be",
+        "gross_pay": 18233,
+        "net_pay": 76954,
+        "taxes": 33777,
+        "deductions": 86038,
+        "created_at": "2023-08-21T07:18:03.940Z",
+        "updated_at": "2023-08-22T01:57:31.996Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "ec1be805-d6f1-4650-a5b9-b42b3891f010",
+        "name": "John Smith",
+        "email": "guest1@example.com",
+        "inquiry": "I have a question about your services",
+        "created_at": "2023-08-21T12:27:00.791Z",
+        "updated_at": "2023-08-21T13:32:29.596Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e60a6241-6c15-4710-affc-a29a7c34080d",
+        "name": "Jane Doe",
+        "email": "guest2@example.com",
+        "inquiry": "I am interested in booking a room",
+        "created_at": "2023-08-21T15:22:06.452Z",
+        "updated_at": "2023-08-21T23:38:10.966Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5aba9175-1ce8-42b0-ac5e-a8540ab712e6",
+        "name": "Michael Brown",
+        "email": "guest3@example.com",
+        "inquiry": "Can you provide more information about your products?",
+        "created_at": "2023-08-21T05:32:47.459Z",
+        "updated_at": "2023-08-21T14:53:40.826Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66249f3b-78ab-4262-83bb-2d35ab8036ed",
+        "name": "Sarah Jones",
+        "email": "guest4@example.com",
+        "inquiry": "I would like to request a quote",
+        "created_at": "2023-08-21T11:25:32.333Z",
+        "updated_at": "2023-08-21T12:21:20.613Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2a8c7bb-79cb-4340-b4ed-9229d9e82cff",
+        "name": "David Wilson",
+        "email": "guest5@example.com",
+        "inquiry": "Do you offer any discounts for group bookings?",
+        "created_at": "2023-08-21T18:26:08.185Z",
+        "updated_at": "2023-08-22T04:43:17.940Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "8fa459f7-5f8e-4b5a-b846-5ceb1067d40d",
+        "job_title": "Software Engineer",
+        "salary": 10090,
+        "hire_date": "2023-08-21T17:23:13.421Z",
+        "termination_date": "2023-08-21T22:04:28.430Z",
+        "created_at": "2023-08-22T02:50:22.184Z",
+        "updated_at": "2023-08-22T02:06:56.977Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c4153b9-e9e3-4538-9c3e-fa9ab64744dd",
+        "job_title": "Sales Manager",
+        "salary": 55670,
+        "hire_date": "2023-08-21T05:28:18.715Z",
+        "termination_date": "2023-08-22T03:12:33.511Z",
+        "created_at": "2023-08-22T03:10:52.604Z",
+        "updated_at": "2023-08-22T00:40:08.607Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2577c036-fd97-4166-a786-a7bea7be363a",
+        "job_title": "Human Resources Specialist",
+        "salary": 86539,
+        "hire_date": "2023-08-21T21:16:29.575Z",
+        "termination_date": "2023-08-21T17:10:48.322Z",
+        "created_at": "2023-08-21T13:11:58.354Z",
+        "updated_at": "2023-08-21T14:01:16.595Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1257ec1-dd7d-42a5-9559-f14692e89728",
+        "job_title": "Marketing Coordinator",
+        "salary": 32823,
+        "hire_date": "2023-08-21T17:51:59.090Z",
+        "termination_date": "2023-08-21T23:10:24.954Z",
+        "created_at": "2023-08-22T02:00:36.242Z",
+        "updated_at": "2023-08-21T09:08:28.501Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "305d00b3-f35c-452c-8e0d-78d606d33a70",
+        "job_title": "Financial Analyst",
+        "salary": 16737,
+        "hire_date": "2023-08-21T10:12:27.419Z",
+        "termination_date": "2023-08-21T06:05:29.378Z",
+        "created_at": "2023-08-21T22:54:26.867Z",
+        "updated_at": "2023-08-21T13:35:23.850Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a74ec737-d2f0-46a8-a96a-4ce70798132d",
+        "email": "Marjory28@hotmail.com",
+        "firstName": "Cloyd",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1212.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4939eb0c-2138-4e86-9ee8-e81c2c0fd566",
+        "email": "Lourdes.Schmitt@hotmail.com",
+        "firstName": "Chase",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/892.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "699e64c6-a1f2-4021-a0e5-5ce5cecc32ee",
+        "email": "Janie61@gmail.com",
+        "firstName": "Ephraim",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/304.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4b623389-60af-4525-80de-fd1b69c88888",
+        "email": "Alverta_Kshlerin90@gmail.com",
+        "firstName": "Luciano",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61810272",
+        "tenantId": null
+      },
+      {
+        "reference": "9fb80c23-3f52-4ab3-99c4-aa8cd7ac96a1",
+        "email": "Adelia16@gmail.com",
+        "firstName": "Brayan",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85368846",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "aeb92345-1676-43d3-830f-80d2f7ea9517",
+        "start_date": "2023-08-22T04:41:50.390Z",
+        "end_date": "2023-08-22T04:16:31.158Z",
+        "status": "Approved",
+        "created_at": "2023-08-21T15:51:52.332Z",
+        "updated_at": "2023-08-21T06:04:15.529Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37775170-6602-418f-8f03-bca6aca41750",
+        "start_date": "2023-08-21T13:53:32.873Z",
+        "end_date": "2023-08-21T12:37:16.803Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T22:15:18.946Z",
+        "updated_at": "2023-08-21T22:44:20.490Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3780eb4-94de-4b5d-bbb9-c5ca0909fa88",
+        "start_date": "2023-08-21T19:38:27.887Z",
+        "end_date": "2023-08-22T03:16:26.757Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T09:24:32.977Z",
+        "updated_at": "2023-08-21T12:08:31.556Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d667a9a4-a520-4bf1-a810-a9c7b0600b57",
+        "start_date": "2023-08-21T13:44:02.873Z",
+        "end_date": "2023-08-22T01:10:35.240Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-22T03:15:06.842Z",
+        "updated_at": "2023-08-21T23:14:33.263Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8039cd54-5746-4f17-bf48-b51f9af3bc02",
+        "start_date": "2023-08-21T19:40:45.648Z",
+        "end_date": "2023-08-21T20:44:02.176Z",
+        "status": "Completed",
+        "created_at": "2023-08-21T21:21:02.463Z",
+        "updated_at": "2023-08-21T16:08:03.372Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "845182f4-0802-493a-a631-68d2fd5d8b32",
+        "gross_pay": 19741,
+        "net_pay": 31710,
+        "taxes": 96550,
+        "deductions": 67336,
+        "created_at": "2023-08-21T18:57:36.757Z",
+        "updated_at": "2023-08-21T18:06:18.061Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e341a0d-e63c-47d3-9355-d485e15b1f56",
+        "gross_pay": 90955,
+        "net_pay": 51146,
+        "taxes": 45110,
+        "deductions": 73221,
+        "created_at": "2023-08-21T15:30:23.759Z",
+        "updated_at": "2023-08-21T09:41:02.784Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "714bce4a-f0a2-457d-9bcd-e2fea19e3cbb",
+        "gross_pay": 57734,
+        "net_pay": 57355,
+        "taxes": 17755,
+        "deductions": 31943,
+        "created_at": "2023-08-21T07:47:44.201Z",
+        "updated_at": "2023-08-21T11:34:48.201Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aea1d0be-cadc-4144-bca3-34e17b07c6a8",
+        "gross_pay": 48279,
+        "net_pay": 19703,
+        "taxes": 76058,
+        "deductions": 29595,
+        "created_at": "2023-08-21T21:13:11.596Z",
+        "updated_at": "2023-08-22T02:46:49.736Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d65dcf4f-e15a-47a6-b68c-6c848e8b4480",
+        "gross_pay": 69393,
+        "net_pay": 82422,
+        "taxes": 63047,
+        "deductions": 27384,
+        "created_at": "2023-08-21T23:57:57.740Z",
+        "updated_at": "2023-08-21T13:43:47.641Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "7cf50d00-7f7e-4f22-b645-8a1cdb228cac",
+        "name": "John Smith",
+        "email": "guest1@example.com",
+        "inquiry": "Regarding room availability",
+        "created_at": "2023-08-21T14:40:41.534Z",
+        "updated_at": "2023-08-21T22:21:12.875Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99485389-b92a-472a-9f4c-7abc914c6bbb",
+        "name": "Jane Doe",
+        "email": "guest2@example.com",
+        "inquiry": "Request for early check-in",
+        "created_at": "2023-08-21T21:50:48.699Z",
+        "updated_at": "2023-08-21T15:41:10.702Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5f0f515-c9d3-4a1b-9f19-79ec37b10bba",
+        "name": "Michael Brown",
+        "email": "guest3@example.com",
+        "inquiry": "Question about amenities",
+        "created_at": "2023-08-21T12:42:33.947Z",
+        "updated_at": "2023-08-21T11:16:33.592Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad688b72-6169-4e7d-a0e7-a4ca42425194",
+        "name": "Sarah Jones",
+        "email": "guest4@example.com",
+        "inquiry": "Special dietary requirements",
+        "created_at": "2023-08-22T03:28:22.389Z",
+        "updated_at": "2023-08-21T12:48:42.960Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af82ec7d-d4c5-462e-b387-579ed9d42bc7",
+        "name": "David Wilson",
+        "email": "guest5@example.com",
+        "inquiry": "Airport transportation inquiry",
+        "created_at": "2023-08-21T22:06:48.857Z",
+        "updated_at": "2023-08-21T15:06:59.965Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "11d0db98-a3af-4933-9c74-32d989088f58",
+        "job_title": "Software Engineer",
+        "salary": 78915,
+        "hire_date": "2023-08-21T16:09:53.133Z",
+        "termination_date": "2023-08-21T20:41:15.949Z",
+        "created_at": "2023-08-22T00:14:28.738Z",
+        "updated_at": "2023-08-21T17:07:48.213Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9b209d1-de31-4534-8a95-1d1f4ec06ac8",
+        "job_title": "Marketing Specialist",
+        "salary": 93005,
+        "hire_date": "2023-08-21T18:40:23.664Z",
+        "termination_date": "2023-08-21T07:38:25.456Z",
+        "created_at": "2023-08-21T08:26:58.010Z",
+        "updated_at": "2023-08-21T14:40:22.676Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dab7828d-ee0b-4004-9739-4dce13ba7aee",
+        "job_title": "Financial Analyst",
+        "salary": 81769,
+        "hire_date": "2023-08-21T17:28:42.000Z",
+        "termination_date": "2023-08-21T19:04:40.926Z",
+        "created_at": "2023-08-21T18:02:18.571Z",
+        "updated_at": "2023-08-21T18:55:53.267Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbeb7cf5-80e6-4ae8-bf10-1bda483a9e99",
+        "job_title": "HR Manager",
+        "salary": 38323,
+        "hire_date": "2023-08-21T08:15:16.279Z",
+        "termination_date": "2023-08-21T15:55:34.437Z",
+        "created_at": "2023-08-22T01:14:28.673Z",
+        "updated_at": "2023-08-21T18:27:29.709Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a30686e-f797-428d-9fe7-7292cb26fc3d",
+        "job_title": "Operations Coordinator",
+        "salary": 30768,
+        "hire_date": "2023-08-21T08:29:12.831Z",
+        "termination_date": "2023-08-22T02:32:21.851Z",
+        "created_at": "2023-08-21T20:11:49.869Z",
+        "updated_at": "2023-08-22T00:57:56.827Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0a22453e-d524-4ac7-bade-a6872c24aa74",
+        "email": "Trey.OKeefe25@gmail.com",
+        "firstName": "Genevieve",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/661.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dc15484a-74b1-4aba-b007-2f856191175d",
+        "email": "Charlie_Russel73@hotmail.com",
+        "firstName": "Susanna",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/417.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "15dc52ed-0b18-4d7d-af69-aa31ba36379f",
+        "email": "Eddie.Kuhic80@yahoo.com",
+        "firstName": "Bernhard",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31133446",
+        "tenantId": null
+      },
+      {
+        "reference": "238825dc-24cb-4155-9f7a-19ba4554a58a",
+        "email": "Michelle.Williamson@gmail.com",
+        "firstName": "Muriel",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/426.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ac714a0-8801-4361-8bd9-889da9077ac9",
+        "email": "Wayne_Hayes@yahoo.com",
+        "firstName": "Koby",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/460.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "b06d17e4-b455-42df-84b3-326aa9ad9fb5",
+        "start_date": "2023-08-21T17:10:56.090Z",
+        "end_date": "2023-08-21T04:58:49.298Z",
+        "status": "Approved",
+        "created_at": "2023-08-21T22:06:16.142Z",
+        "updated_at": "2023-08-21T21:24:04.142Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f75b9259-d324-49ea-a86b-121a4a962e7c",
+        "start_date": "2023-08-22T00:24:07.651Z",
+        "end_date": "2023-08-22T04:22:35.374Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T07:15:48.052Z",
+        "updated_at": "2023-08-21T09:18:25.316Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffff3615-8aa8-4526-9cc6-2cac8e7516ab",
+        "start_date": "2023-08-21T20:29:43.295Z",
+        "end_date": "2023-08-21T15:27:55.266Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T08:00:05.009Z",
+        "updated_at": "2023-08-21T14:27:09.116Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83ffa9f7-6639-4daa-b8cc-7a6cabc55818",
+        "start_date": "2023-08-22T03:14:56.372Z",
+        "end_date": "2023-08-21T15:09:19.091Z",
+        "status": "In Progress",
+        "created_at": "2023-08-21T07:25:27.387Z",
+        "updated_at": "2023-08-21T05:15:26.355Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f2ba676-3c3f-4e0e-8181-e9942cc9ad01",
+        "start_date": "2023-08-22T04:40:54.663Z",
+        "end_date": "2023-08-21T23:05:13.889Z",
+        "status": "Completed",
+        "created_at": "2023-08-21T16:27:17.499Z",
+        "updated_at": "2023-08-22T02:15:24.261Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "c50ee0c0-f2b7-4716-9a66-4e428d1a9967",
+        "gross_pay": 47891,
+        "net_pay": 13441,
+        "taxes": 34269,
+        "deductions": 6369,
+        "created_at": "2023-08-21T22:36:05.417Z",
+        "updated_at": "2023-08-22T00:13:34.786Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab93d263-428e-472f-86f3-7507bb0d4d16",
+        "gross_pay": 9111,
+        "net_pay": 74897,
+        "taxes": 82558,
+        "deductions": 21752,
+        "created_at": "2023-08-22T03:37:36.231Z",
+        "updated_at": "2023-08-21T17:39:53.143Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7029f4f-33fd-45f7-8d45-58af514c258e",
+        "gross_pay": 72359,
+        "net_pay": 91996,
+        "taxes": 18678,
+        "deductions": 91272,
+        "created_at": "2023-08-21T11:39:06.131Z",
+        "updated_at": "2023-08-22T00:21:55.945Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db5f5e47-aaa6-4c11-a189-7516d31ec76a",
+        "gross_pay": 72203,
+        "net_pay": 85647,
+        "taxes": 98534,
+        "deductions": 83139,
+        "created_at": "2023-08-21T22:41:36.676Z",
+        "updated_at": "2023-08-22T00:38:22.306Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d806be1-e81b-4132-b89d-3f9651f6ed01",
+        "gross_pay": 17702,
+        "net_pay": 41865,
+        "taxes": 65759,
+        "deductions": 76004,
+        "created_at": "2023-08-21T21:45:03.732Z",
+        "updated_at": "2023-08-21T10:03:07.895Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "08e4d907-526d-4e8f-8bd8-feecff87d606",
+        "name": "John Smith",
+        "email": "guest1@example.com",
+        "inquiry": "Interested in booking a room",
+        "created_at": "2023-08-21T08:29:02.409Z",
+        "updated_at": "2023-08-21T17:00:30.661Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82822d9c-fb24-449a-9b95-c3df510fca55",
+        "name": "Jane Doe",
+        "email": "guest2@example.com",
+        "inquiry": "Enquiring about availability",
+        "created_at": "2023-08-21T09:55:09.704Z",
+        "updated_at": "2023-08-21T14:51:01.013Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2898cecc-a0c0-4f16-a546-e1dfbc513d99",
+        "name": "Michael Brown",
+        "email": "guest3@example.com",
+        "inquiry": "Requesting information about amenities",
+        "created_at": "2023-08-22T03:23:55.096Z",
+        "updated_at": "2023-08-22T03:48:38.659Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aefc8d43-8196-431f-afa3-4882165f6f37",
+        "name": "Sarah Jones",
+        "email": "guest4@example.com",
+        "inquiry": "Inquiring about nearby attractions",
+        "created_at": "2023-08-21T23:55:08.872Z",
+        "updated_at": "2023-08-21T06:14:52.940Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d60f372-53b1-4965-a688-ca98b59c40ac",
+        "name": "David Wilson",
+        "email": "guest5@example.com",
+        "inquiry": "Seeking clarification on check-in process",
+        "created_at": "2023-08-21T14:22:50.246Z",
+        "updated_at": "2023-08-21T12:56:25.094Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "c2900519-b61d-4984-8147-9223231be029",
+        "job_title": "Software Engineer",
+        "salary": 77514,
+        "hire_date": "2023-08-21T17:19:48.096Z",
+        "termination_date": "2023-08-21T10:22:40.800Z",
+        "created_at": "2023-08-22T00:48:23.678Z",
+        "updated_at": "2023-08-21T08:52:53.032Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12c65bec-f2d1-4e01-b12a-a01f10158631",
+        "job_title": "Sales Manager",
+        "salary": 38103,
+        "hire_date": "2023-08-21T12:45:33.561Z",
+        "termination_date": "2023-08-22T02:00:16.445Z",
+        "created_at": "2023-08-21T17:02:58.268Z",
+        "updated_at": "2023-08-21T13:08:50.697Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d85ecfa7-cb57-4d59-9699-407c28b37490",
+        "job_title": "Human Resources Specialist",
+        "salary": 3167,
+        "hire_date": "2023-08-21T20:59:59.248Z",
+        "termination_date": "2023-08-21T21:46:00.796Z",
+        "created_at": "2023-08-21T23:38:49.915Z",
+        "updated_at": "2023-08-22T02:30:50.617Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4775ea4-b8c8-4ca2-b894-a861b300a1af",
+        "job_title": "Marketing Coordinator",
+        "salary": 11669,
+        "hire_date": "2023-08-21T11:34:30.637Z",
+        "termination_date": "2023-08-22T04:09:30.303Z",
+        "created_at": "2023-08-21T08:48:36.677Z",
+        "updated_at": "2023-08-22T04:40:58.717Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "089ebb38-1520-48af-94f7-739669901724",
+        "job_title": "Finance Analyst",
+        "salary": 51258,
+        "hire_date": "2023-08-22T02:21:53.900Z",
+        "termination_date": "2023-08-21T10:38:24.604Z",
+        "created_at": "2023-08-21T22:05:46.086Z",
+        "updated_at": "2023-08-21T14:49:40.245Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "80572b05-5ed5-4f08-acca-183c2b98abab",
+        "email": "April_Kozey@hotmail.com",
+        "firstName": "Wallace",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19772500",
+        "tenantId": null
+      },
+      {
+        "reference": "d6f2364b-919a-4e37-91fb-c62bfad1af98",
+        "email": "Otto10@yahoo.com",
+        "firstName": "Immanuel",
+        "lastName": "Stoltenberg-Rowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/694.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2be03619-0450-4afe-b3d6-0a29ff65fa3d",
+        "email": "Danyka.Ullrich-Beatty84@hotmail.com",
+        "firstName": "Green",
+        "lastName": "Blanda-Lockman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49475214",
+        "tenantId": null
+      },
+      {
+        "reference": "6b9d778b-594e-4afa-8eca-37362b1802e9",
+        "email": "Maryse_Franey@hotmail.com",
+        "firstName": "Mariam",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93235994",
+        "tenantId": null
+      },
+      {
+        "reference": "56931691-92db-43b1-ba11-bd4d3f181598",
+        "email": "Josie_Schumm@yahoo.com",
+        "firstName": "Tevin",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2824936",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "6f91e00c-f461-4ebe-a8f6-0924e9a870c7",
+        "start_date": "2023-08-21T06:29:40.377Z",
+        "end_date": "2023-08-21T12:19:41.479Z",
+        "status": "Approved",
+        "created_at": "2023-08-21T05:00:18.903Z",
+        "updated_at": "2023-08-22T04:41:04.708Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bef13c9e-ccfb-41a3-8ab3-feb4d89d59a9",
+        "start_date": "2023-08-22T03:20:48.723Z",
+        "end_date": "2023-08-21T10:11:03.151Z",
+        "status": "Pending",
+        "created_at": "2023-08-22T02:58:58.989Z",
+        "updated_at": "2023-08-21T16:49:08.607Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e445143f-0ffb-45be-91ca-69ff845ea115",
+        "start_date": "2023-08-21T09:39:27.743Z",
+        "end_date": "2023-08-21T17:20:54.006Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T23:32:51.272Z",
+        "updated_at": "2023-08-22T03:08:27.199Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf175d5b-d2e1-4b4e-9c0d-a6e781866d8d",
+        "start_date": "2023-08-22T03:32:00.482Z",
+        "end_date": "2023-08-22T02:33:20.935Z",
+        "status": "Requested",
+        "created_at": "2023-08-21T14:05:00.897Z",
+        "updated_at": "2023-08-21T21:44:54.396Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed8e971e-0f9e-4106-9a7d-927b56218963",
+        "start_date": "2023-08-21T22:46:33.477Z",
+        "end_date": "2023-08-22T01:29:24.000Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-21T08:13:47.764Z",
+        "updated_at": "2023-08-22T04:46:23.161Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "5f3372c8-8814-47da-9064-a445f739699d",
+        "gross_pay": 91289,
+        "net_pay": 59313,
+        "taxes": 33406,
+        "deductions": 19535,
+        "created_at": "2023-08-21T23:51:30.665Z",
+        "updated_at": "2023-08-21T15:01:36.567Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "179b9e46-85ff-4d73-bcbd-6ecec15c6fb3",
+        "gross_pay": 71627,
+        "net_pay": 45373,
+        "taxes": 57102,
+        "deductions": 82445,
+        "created_at": "2023-08-21T11:35:38.319Z",
+        "updated_at": "2023-08-21T17:49:17.856Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bb7f790-2e3f-4e66-ad73-8bad8774821c",
+        "gross_pay": 39088,
+        "net_pay": 48453,
+        "taxes": 15992,
+        "deductions": 58252,
+        "created_at": "2023-08-21T22:54:31.023Z",
+        "updated_at": "2023-08-22T02:55:38.749Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1287849d-6055-4687-8303-79c1a1ac0fae",
+        "gross_pay": 82025,
+        "net_pay": 2864,
+        "taxes": 8142,
+        "deductions": 35289,
+        "created_at": "2023-08-21T10:31:56.877Z",
+        "updated_at": "2023-08-21T12:28:36.439Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a455e14-f537-45dd-8ce1-32577fce410f",
+        "gross_pay": 27437,
+        "net_pay": 6830,
+        "taxes": 32245,
+        "deductions": 22811,
+        "created_at": "2023-08-22T03:22:49.546Z",
+        "updated_at": "2023-08-22T00:20:43.042Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "a1e0c757-fd6e-45eb-9e16-bb9290e096bc",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "inquiry": "Interested in booking a room",
+        "created_at": "2023-08-21T11:48:39.973Z",
+        "updated_at": "2023-08-21T21:06:26.230Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bce1cc7-729e-42fa-94bf-eeaee3e385f8",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "inquiry": "Looking for more information about the facilities",
+        "created_at": "2023-08-21T09:54:06.098Z",
+        "updated_at": "2023-08-21T11:17:05.971Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d62f6caf-b9a2-44e9-a65b-f74f4c98bfe7",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "inquiry": "Inquiring about availability",
+        "created_at": "2023-08-22T01:38:49.419Z",
+        "updated_at": "2023-08-21T21:24:09.471Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be1f7e90-4a21-4be0-84a7-82da2005a430",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "inquiry": "Want to know about nearby attractions",
+        "created_at": "2023-08-22T03:44:41.936Z",
+        "updated_at": "2023-08-21T05:39:42.883Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb8e49a7-2ed2-46d6-a95b-8ba5840428ff",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "inquiry": "Need assistance with transportation",
+        "created_at": "2023-08-22T00:01:02.904Z",
+        "updated_at": "2023-08-22T03:26:11.563Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "64acf236-1392-4840-ac7e-07f65ba8aa11",
+        "job_title": "Software Engineer",
+        "salary": 62859,
+        "hire_date": "2023-08-22T01:42:34.358Z",
+        "termination_date": "2023-08-21T05:23:43.920Z",
+        "created_at": "2023-08-21T18:39:13.009Z",
+        "updated_at": "2023-08-21T16:00:30.301Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0687b264-1afc-4490-a64d-25737cc6c34f",
+        "job_title": "Marketing Specialist",
+        "salary": 35285,
+        "hire_date": "2023-08-21T12:28:11.267Z",
+        "termination_date": "2023-08-21T12:17:17.029Z",
+        "created_at": "2023-08-21T20:15:19.567Z",
+        "updated_at": "2023-08-21T23:35:31.284Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fccba6a-51fd-4648-b40f-b2e97ba1caaf",
+        "job_title": "Sales Representative",
+        "salary": 31131,
+        "hire_date": "2023-08-22T04:17:04.139Z",
+        "termination_date": "2023-08-21T16:49:37.795Z",
+        "created_at": "2023-08-21T18:13:21.596Z",
+        "updated_at": "2023-08-21T22:02:09.010Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85081c7a-e3b3-4429-890c-3454aab5120d",
+        "job_title": "Human Resources Manager",
+        "salary": 75748,
+        "hire_date": "2023-08-21T22:07:01.023Z",
+        "termination_date": "2023-08-21T09:50:57.113Z",
+        "created_at": "2023-08-21T19:08:40.146Z",
+        "updated_at": "2023-08-22T03:33:14.524Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4366427-9b9c-420c-beff-444fb9b5f5a3",
+        "job_title": "Operations Coordinator",
+        "salary": 81699,
+        "hire_date": "2023-08-21T22:50:03.669Z",
+        "termination_date": "2023-08-21T17:14:54.700Z",
+        "created_at": "2023-08-21T16:27:42.662Z",
+        "updated_at": "2023-08-21T20:32:26.535Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "40ae01c2-cac3-4ca1-9e06-36438103a4ab",
+        "email": "Vesta_Marvin-Kassulke80@hotmail.com",
+        "firstName": "Mathilde",
+        "lastName": "McClure",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11660852",
+        "tenantId": null
+      },
+      {
+        "reference": "95001f21-2bdf-4023-94ac-0e3c70c2a338",
+        "email": "Shany.Dare76@hotmail.com",
+        "firstName": "Lawson",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3867848",
+        "tenantId": null
+      },
+      {
+        "reference": "7f95bac5-cb4a-46db-98b0-1cdfa3ae14bb",
+        "email": "Ludwig23@hotmail.com",
+        "firstName": "Precious",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30202791",
+        "tenantId": null
+      },
+      {
+        "reference": "ac1e026a-62c5-4bc5-b7fd-df10134df1c2",
+        "email": "Robin.Heathcote0@hotmail.com",
+        "firstName": "Julio",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/956.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb164e1d-b847-4277-b32a-522df5599bfb",
+        "email": "Jovan74@hotmail.com",
+        "firstName": "Burley",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10172946",
+        "tenantId": null
+      }
+    ]
+  }
+]
